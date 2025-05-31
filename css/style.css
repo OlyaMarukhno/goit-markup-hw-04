@@ -148,7 +148,7 @@ address {
 
 .page-hero {
     padding: 188px 0;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
     margin: 0 auto;
     background-color: #2e2f42;
@@ -157,6 +157,9 @@ address {
     linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
     url('../images/people-office.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     }
 
 .titel-hero {
@@ -208,14 +211,20 @@ address {
 }
 
 .icon-about {
+    display: flex;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background: #f4f4fd;
     width: 264px;
     height: 112px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 .icon {
+    width: 64px;
+    height: 64px;
     display: flex;
     margin: 24px auto;
 }
@@ -313,6 +322,8 @@ address {
 .icon-list {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 .icon-item {
