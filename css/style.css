@@ -197,11 +197,11 @@ address {
 
 .about-container {
     display: inline-flex;
+    max-width: 1158px;
 }
 
 .about {
     padding: 120px 0;
-    max-width: 1158px;
     margin: 0 auto;
 }
 
@@ -215,13 +215,6 @@ address {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
-}
-
-.icon {
-    width: 64px;
-    height: 64px;
-    display: flex;
-    margin: 24px auto;
 }
 
 .visually-hidden {
@@ -478,7 +471,6 @@ address {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     font-weight: 500;
-    margin-bottom: 16px;
 }
 
 .footer-social {
