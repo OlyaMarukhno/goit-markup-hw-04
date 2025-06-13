@@ -196,8 +196,9 @@ address {
 }
 
 .about-container {
-    display: inline-flex;
-    max-width: 1158px;
+
+   /* display: inline-flex;
+    max-width: 1158px;*/
 }
 
 .about {
@@ -308,6 +309,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .icon-list {
@@ -324,7 +326,7 @@ address {
     width: 40px;
     height: 40px;
     color: #fff;
-    margin: 8px auto;
+    /*margin: 8px auto;*/
     display: flex;
     align-items: center;
   }
